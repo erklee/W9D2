@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ttt_view_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ttt-view.js */ \"./src/ttt-view.js\");\n/* harmony import */ var _ttt_node_game_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../../../../../ttt_node/game.js */ \"./ttt_node/game.js\");\n/* harmony import */ var _ttt_node_game_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ttt_node_game_js__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n  // Your code here\n});\n\n\n//# sourceURL=webpack://practice-for-ch-js-browser-ttt-main/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ttt_view_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ttt-view.js */ \"./src/ttt-view.js\");\n/* harmony import */ var _ttt_view_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_ttt_view_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _ttt_node_game_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../../../../../ttt_node/game.js */ \"./ttt_node/game.js\");\n/* harmony import */ var _ttt_node_game_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ttt_node_game_js__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n  const ttt = document.getElementById(\"ttt\");\n  const game = new (_ttt_node_game_js__WEBPACK_IMPORTED_MODULE_1___default())();\n  new (_ttt_view_js__WEBPACK_IMPORTED_MODULE_0___default())(game, el);\n});\n\n\n//# sourceURL=webpack://practice-for-ch-js-browser-ttt-main/./src/index.js?");
 
 /***/ }),
 
@@ -24,10 +24,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ttt
 /*!*************************!*\
   !*** ./src/ttt-view.js ***!
   \*************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nclass View {\n  constructor(game, el) {\n  }\n  \n  setupBoard() {\n  }\n  \n  handleClick(e) {\n  }\n\n  makeMove(square) {\n  }\n  \n  handleGameOver() {\n  }\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (View);\n\n//# sourceURL=webpack://practice-for-ch-js-browser-ttt-main/./src/ttt-view.js?");
+eval("throw new Error(\"Module parse failed: Unexpected token (114:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n| // export default View;\\n| // s;\\n> \");\n\n//# sourceURL=webpack://practice-for-ch-js-browser-ttt-main/./src/ttt-view.js?");
 
 /***/ }),
 
