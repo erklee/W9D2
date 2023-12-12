@@ -1,1 +1,30 @@
-/* Your code here */
+body {
+  background-color: rgb(241, 217, 0);
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  width: 300px; 
+  flex-wrap: wrap;
+  margin: 30px auto;
+  border: 5px solid black;
+  background: rgb(255, 0, 0);
+  padding: 0;
+}
+
+
+li {
+  list-style: none;
+  width: 90px;
+  height: 90px;
+  border: 5px solid black;
+  background: rgb(174, 0, 255);
+}
+
+li:hover {
+  background: rgb(0, 132, 255);
+}
